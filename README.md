@@ -1,2 +1,8 @@
 # Portfolio
-My UX/UI designer and Frontend Web Developer portfolio
+My UX/UI Designer and Frontend Web Developer portfolio
+<img src="img/screenshot2.png" alt="screenshot">
+## Resources
+[comfortaa](https://fonts.googleapis.com/css?family=Comfortaa&display=swap") font from Google Fonts 
+Icons from (https://use.fontawesome.com/releases/v5.7.0/css/all.css)
+## Acknowledgments
+Bubbles effect (https://soulwire.github.io/sketch.js/)
