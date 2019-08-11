@@ -1,0 +1,243 @@
+html, body {
+	font-family: 'Comfortaa', cursive;
+	font-size: 18px;
+    background: #222;
+    overflow-x: hidden;/*just overflow without x  is dangerous*/
+    margin: 0;
+	color: #91d93a;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	cursor: url(../img/logo32.png), auto;
+}
+
+.foreground {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	line-height: 1.3em;
+	pointer-events: none;
+}
+
+a:hover {
+cursor: url(../img/pointerHen.png), auto;
+}
+
+.foreground a {
+	pointer-events: auto;
+	margin: 0 0.3em;
+	font-size: 1.2em;
+}
+
+header {
+	margin: auto;
+	text-align: center;
+	pointer-events: auto;
+
+}
+
+.img-container img {
+	width: 80px;
+	display: block;
+	margin: auto;
+	padding-top: 0.5em;
+	animation: drift 2.3s ease-in 1;
+	animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+	animation-fill-mode: forwards;
+}
+
+.img-container {
+	display: flex;
+}
+
+.me {
+	width: 170px;
+	border: 5px solid #91d93a;
+	border-radius: 50%;
+	
+	animation-name: bounce-7;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	transform-origin: bottom;
+	animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+	animation-delay: 1.5s;
+}
+
+h1 {
+	font-size: 1.4em;
+	margin-bottom: 0;
+	margin-top: 0.4em;
+}
+
+h2 {
+	font-size: 1.1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+}
+
+h3 {
+	font-size: 1.2em;
+    margin-bottom: 0.9em;
+	margin-top: 0.4em;
+}
+
+#grad1,
+article a,
+header a {
+    background: red;
+    background: -webkit-linear-gradient(left, #306eda , yellow,#91d93a, #0bad5c, #306eda, violet);
+    background: -o-linear-gradient(right, #FF4E50, yellow, #91d93a, #0bad5c, #306eda, violet);
+    background: -moz-linear-gradient(right, #FF4E50, yellow, #91d93a, #0bad5c, #306eda, violet);
+    background: linear-gradient(to right, #FF4E50, #306eda, #91d93a, #0bad5c, #306eda, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-size: 2.1em;
+}
+
+/*the projects page*/
+main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	overflow-y: hidden;
+	
+}
+.projects {
+	/*margin: auto;*/
+	display: flex;
+	margin: 3em 0;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/*height: 100%;*/
+}
+
+.project {
+	text-align: center;
+	margin-bottom: 2em;
+	width: calc(33% - 0.8em);
+	}
+
+.app {
+	margin: 0;
+	}
+
+.project a {
+	font-size: 0.9em;
+}
+
+.project-img:hover {
+	transform: scale(0.97);
+	box-shadow: 2px 2px 4px #333;
+}
+
+.project-img {
+	max-width: 100%;
+	border-radius: 1em;
+	transition: all 1s; /*because I set it to all properties, I get transition both in and out*/
+}
+
+/*footer*/
+footer a {
+		padding-left: 1.3em;
+		padding-top: 0;
+		color: #91d93a;
+		text-decoration: none;
+	}
+
+footer a:first-child {
+	padding-left: 0;
+}
+
+footer a:hover {
+cursor: url(../img/pointerHen.png), auto;
+}
+
+footer p {
+		margin-top: 0.2em;
+	}
+
+footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-top: 1.4em;
+		border-top: 0.1em solid  #91d93a;
+	    margin: 0 1em;
+	}
+
+/*animations*/
+@keyframes bounce-7 {
+	0%	 { transform: scale(1,1) translateY(0); }
+	10%	{ transform: scale(1.1,.9) translateY(0); }
+	30%	{ transform: scale(.9,1.1) translateY(-50px); }
+	50%	{ transform: scale(1.05,.95) translateY(0); }
+	57%	{ transform: scale(1,1)	translateY(-7px); }
+	64%	{ transform: scale(1,1)	translateY(0); }
+	100% { transform: scale(1,1) translateY(0); }
+	}
+
+@keyframes drift {
+	0%{transform: translateX(-750px);}
+	40%{transform: scale(1.1, 0.9) translateX(30px);}
+	80%{transform:scale(.9,1.1) translateX(-10px);}
+	100%{transform: translateX(0);}
+} 
+
+/*adjusment for mobile devices*/
+@media screen and (max-width: 950px) {
+	/*header {
+		overflow-y: scroll;
+	}
+	*/
+	main {
+		display: flex;
+		flex-wrap: wrap;
+		height: 100%;
+	}
+
+	.projects {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	
+	.project {
+		width: 100%;
+	}
+
+	.project a {
+		font-size: 1em;
+	}
+	
+	footer {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-top: 1em;
+	}
+
+	footer a {
+		padding-left: 0.6em;
+		padding-top: 0.3em;
+	}
+
+	address {
+		display: flex;
+		justify-content: center;
+	}
+
+	p {
+		text-align: center;
+		font-size: 0.8em;
+	}
+
+	address p {
+		font-size: 1em;
+	
+	}
+	
+}
