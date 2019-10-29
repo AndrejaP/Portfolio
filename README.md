@@ -2,7 +2,7 @@
 My UX/UI Designer and Frontend Web Developer portfolio
 <img src="img/portfolio-sketch-screenshot.png" alt="screenshot">
 See it live here: http://godless-drifter-com.stackstaging.com/
-and here: https://andrejap.github.io/Portfolio/
+or here: https://andrejap.github.io/Portfolio/
 
 ## Resources
 [comfortaa](https://fonts.googleapis.com/css?family=Comfortaa&display=swap") font from Google Fonts 
