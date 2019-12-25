@@ -18,7 +18,7 @@
 			<img class="me" src="img/meCookie.png" title="Magic potion" alt="me with a bottle">
 			<h1 id="first-line"> Hi, I'm Andreja, a UX/UI <span id="grad1">Designer</span></h1>
 			<h1 id="second-line"> &amp; Front-end Web <div id="effect"><span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span></div></h1>
-			<a href="#portfolio">Portfolio</a>
+			<a class="link" href="#portfolio">Portfolio</a>
 			<a href="#contact">Contact</a>
 			<div class="img-container">
 				<img src="img/logoLighter.gif" alt="green ostrich">
@@ -28,23 +28,85 @@
    		<main>
 			<div id="portfolio" class="projects"><!--I used div as a container for the flexbox, only for styling purposes-->
 				<p>I love playing with HTML, CSS and Javascript to create animated, responsive, and intuitive user experiences.<p>
-				
 					<article class="project game">
-						<img class="project-img" src="img/memory-Game.PNG" alt="Memory game">
+						<div class="content">
+							<a href="img/memory-Game.PNG"_target="_blank">
+								<div class="content-overlay"></div>
+								<img class="project-img content-image" src="img/memory-Game.PNG" alt="Memory game">
+								<div class="content-details fadeIn-bottom">
+									<h3 class="content-title">Javascript<br/>CSS<br/>Oil on Canvas</h3>
+								</div>
+							</a>
+						</div>
 						<h2>Memory Game</h2>
-						<a href="https://github.com/AndrejaP/Memory-Game" target="game">See on GitHub</a>
+						<a class="link" href="https://github.com/AndrejaP/Memory-Game" target="game">See on GitHub</a>
 						&nbsp;
 						<a href="memory-game/" target="outside"> Play</a>
 					</article>
 					<article class="project portfolio">
-						<img class="project-img" src="img/screenshot.png" alt="artist's portfolio">
+						<div class="content">
+							<a href="img/screenshot.png"_target="_blank">
+								<div class="content-overlay"></div>
+								<img class="project-img content-image" src="img/screenshot.png" alt="artist's portfolio">
+								<div class="content-details fadeIn-bottom">
+									<h3 class="content-title">My first <br/>project with<br/>JavaScript</h3>
+								</div>
+							</a>
+						</div>
 						<h2>Artistic Portfolio</h2>
 						<a href="http://www.stoic-beasts.tech/portfolio/" target="beasts">stoic-beasts.tech</a>
 					</article>
 					<article class="project app">
-						<img class="project-img" src="img/reviews.jpg" alt="Two horses and a hand offering grass">
+						<div class="content">
+							<a href="img/reviews.jpg"_target="_blank">
+								<div class="content-overlay"></div>
+								<img class="project-img" src="img/reviews.jpg" alt="Two horses and a hand offering grass">
+								<div class="content-details fadeIn-bottom">
+									<h3 class="content-title">progressive-web-app<br/>javascript<br/>service-worker<br/>a11y</h3>
+								</div>
+							</a>
+						</div>
 						<h2>Restaurant App</h2>
 						<a href="https://github.com/AndrejaP/Restaurant-App" target="app">See on GitHub</a>
+					</article>
+					<article class="project mentorship">
+						<div class="content">
+							<a href="img/redi.png"_target="_blank">
+								<div class="content-overlay"></div>
+							  <img class="project-img" src="img/redi.png" alt="Screenshot of the website">
+							  <div class="content-details fadeIn-bottom">
+									<h3 class="content-title">UX/UI Design<br/>Figma</h3>
+								</div>
+							</a>
+						</div>
+						<h2>Mentorship Website</h2>
+						<a href="https://github.com/AndrejaP/Mentorship-Website-Design-in-Figma" target="app">See on GitHub</a>
+					</article>
+					<article class="project dating">
+						<div class="content">
+							<a href="img/dating.png"_target="_blank">
+								<div class="content-overlay"></div>
+								<img class="project-img" src="img/dating.png" alt="Dating app homepage">
+								<div class="content-details fadeIn-bottom">
+									<h3 class="content-title">Full Stack Web App<br/>Mongo DB</br>Express.js</br>Vue.js<br/>Node.js</h3>
+								</div>
+							</a>
+						</div>
+						<h2>Dating Website</h2>
+						<a href="https://jscc19-at-long-last-frontend.herokuapp.com/" target="app">See live</a>
+					</article>
+					<article class="project RPS">
+						<div class="content">
+							<a href="img/dating.png"_target="_blank">
+								<div class="content-overlay"></div>
+								<img class="project-img" src="img/RPS.png" alt="Screenshot of the game">
+								<div class="content-details fadeIn-bottom">
+									<h3 class="content-title">HTML<br/>CSS</br>JavaScript</h3>
+								</div>
+							</a>
+						</div>
+						<h2>Rock Paper Scissors Game</h2>
+						<a href="https://github.com/AndrejaP/Rock-Paper-Scissors-Game" target="app">See on GitHub</a>
 					</article>
 			</div>
       </main>
