@@ -4,7 +4,7 @@ html, body {
 	background:  #333;
 	overflow-x: hidden;
 	margin: 0;
-	color: #ace269;
+	color: #91d93a;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	cursor: url(../img/logo32.png), auto;
@@ -35,7 +35,7 @@ a {
 a:hover {
 	transform: scale(1.10);
 	color: #88d629;
-	text-shadow: 5px 5px 2px #29400c;
+	text-shadow: 5px 5px 2px #222;
 }
 
 .foreground a {
@@ -187,7 +187,7 @@ main {
 
 /*.project-img:hover {
 	transform: scale(1.05);
-	box-shadow: 2px 2px 4px #333;
+	box-shadow: 2px 2px 4px #222;
 	opacity: 0.3;
 }*/
 
@@ -321,7 +321,7 @@ p {
   color: #fff;
   margin-bottom: 0.5em;
   text-transform: uppercase;
-  line-height: 1.3em;
+  line-height: 1.5em;
 	text-shadow: none;
 }
 
@@ -335,7 +335,7 @@ p {
 footer a {
 	padding-left: 1.3em;
 	padding-top: 0;
-	color: #ace269;
+	color: #91d93a;
 	text-decoration: none;
 	}
 
@@ -366,12 +366,10 @@ footer {
 }
 
 @keyframes background {
-  0% { background-color: #444; }
-	16% { background-color: #871287; }
-  33% { background-color: #5800a8; }  
-  67% { background-color: #1f53ad; }
-  85% { background-color: #375610; }
-  100% { background-color: #2f4f4f; }
+  0% { background-color: #222; }
+  25% { background-color: #444; }
+  50% { background-color: #823AD8; }
+  75% { background-color: #333; }
 }
 
 @keyframes bounce-7 {
