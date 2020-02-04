@@ -9,6 +9,6 @@ or here: https://andrejap.github.io/Portfolio/
 
 ## Resources
 [comfortaa](https://fonts.googleapis.com/css?family=Comfortaa&display=swap") font from Google Fonts 
-Icons from (https://use.fontawesome.com/releases/v5.7.0/css/all.css)
+Icons from [Font Awesome](https://use.fontawesome.com/releases/v5.7.0/css/all.css)
 ## Acknowledgments
-Bubbles effect (https://soulwire.github.io/sketch.js/)
+Bubbles [effect](https://soulwire.github.io/sketch.js/)
