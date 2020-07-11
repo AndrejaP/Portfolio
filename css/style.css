@@ -360,7 +360,7 @@ footer {
 
 @-webkit-keyframes background {
   0% { background-color: #333; }
-  33% { background-color: #purple; }  
+  33% { background-color: #483D8B; }  
   66% { background-color: #darkgreen; }
   100% { background-color: #indigo; }
 }
@@ -368,7 +368,7 @@ footer {
 @keyframes background {
   0% { background-color: #222; }
   25% { background-color: #444; }
-  50% { background-color: #823AD8; }
+  50% { background-color: #483D8B; }
   75% { background-color: #333; }
 }
 
