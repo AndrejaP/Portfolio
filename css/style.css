@@ -4,7 +4,7 @@ html, body {
 	background:  #333;
 	overflow-x: hidden;
 	margin: 0;
-	color: #91d93a;
+	color: #7ac942;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	cursor: url(../img/logo32.png), auto;
@@ -72,7 +72,7 @@ header {
 
 .me {
 	width: 170px;
-	border: 5px solid #91d93a;
+	border: 5px solid #7ac942;
 	border-radius: 50%;
 	
 	animation-name: bounce-7;
