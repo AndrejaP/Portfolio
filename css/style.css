@@ -342,10 +342,12 @@ footer a {
 
 footer a:first-child {
 	padding-left: 0;
+	color: #cccccc;
 }
 
 footer p {
 	margin: 0 0 1em 0;
+	color: #cccccc;
 }
 
 footer {
