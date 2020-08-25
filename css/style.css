@@ -111,7 +111,8 @@ header a {
 	font-size: 1.36em;
 }
 
-#grad1 {
+#grad1,
+#grad2 {
     background: red;
     background: -webkit-linear-gradient(left, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
     background: -o-linear-gradient(right, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
