@@ -128,6 +128,9 @@ header a {
 	perspective-origin: 200px 40px;
 	display: inline;
 	font-size: 3em;
+}
+
+#grad2 {
 	opacity: 0.7;
 }
 
@@ -602,6 +605,6 @@ footer {
 @media screen and (min-width: 700px) {
 	
 	#grad2 {
-	font-size: 2.3em;
+	font-size: 2.33em;
 	}
 }
