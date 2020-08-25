@@ -115,7 +115,7 @@ header a {
     background: -webkit-linear-gradient(left, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
     background: -o-linear-gradient(right, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
     background: -moz-linear-gradient(right, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
-    background: linear-gradient(to right, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
+    background: linear-gradient(to right, #88cf56, #7ac942, #8acc26, #79b321, #68991c, #456613);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
