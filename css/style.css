@@ -98,7 +98,7 @@ h2 {
 
 article a,
 header a {
-	color:#4da6ff;
+	color:#cccccc;
 }
 
 #first-line {
@@ -112,10 +112,10 @@ header a {
 
 #grad1 {
     background: red;
-    background: -webkit-linear-gradient(left, #306eda , yellow,#91d93a, #0bad5c, #306eda, violet);
-    background: -o-linear-gradient(right, #FF4E50, yellow, #91d93a, #0bad5c, #306eda, violet);
-    background: -moz-linear-gradient(right, #FF4E50, yellow, #91d93a, #0bad5c, #306eda, violet);
-    background: linear-gradient(to right, #FF4E50, #306eda, #91d93a, #0bad5c, #306eda, violet);
+    background: -webkit-linear-gradient(left, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
+    background: -o-linear-gradient(right, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
+    background: -moz-linear-gradient(right, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
+    background: linear-gradient(to right, #7ac942, #8acc26, #79b321, #68991c, #456613, #344d0e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
